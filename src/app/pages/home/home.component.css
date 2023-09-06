@@ -1,7 +1,8 @@
 .page {
-
-  max-width: 100vw;
-  max-height: 100vh;
+  widt: 99vw;
+  height: 99vh;
+  max-width: 99vw;
+  max-height: 99vh;
 }
 
 .header {
@@ -25,7 +26,7 @@ h1 {
 }
 
 .text {
-  margin: 15% 5%;
+  width: 60%;
 }
 
 p {
@@ -48,4 +49,23 @@ p {
   padding-top: 0;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: row;
+  margin: 15% 5% 5%;
+}
+
+.img-responsive {
+  width: 75%;
+  border-radius: 50%;
+}
+
+.img-container {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
