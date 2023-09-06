@@ -10,6 +10,8 @@ import { ArticlesComponent } from './pages/articles/articles.component';
 import { ResumeComponent } from './pages/resume/resume.component';
 import { NavigationHeaderComponent } from './component/navigation-header/navigation-header.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import {CommonModule} from "@angular/common";
+import {SharedModule} from "./component/shared.module";
 
 @NgModule({
   declarations: [
@@ -19,12 +21,13 @@ import { ContactComponent } from './pages/contact/contact.component';
     ProjectsComponent,
     ArticlesComponent,
     ResumeComponent,
-    NavigationHeaderComponent,
     ContactComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
