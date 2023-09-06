@@ -39,4 +39,4 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
           source: dist/portfolio-front/
-          target: /app
+          target: /home/app
