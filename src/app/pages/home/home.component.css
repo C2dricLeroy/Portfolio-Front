@@ -1,8 +1,10 @@
 .page {
-  widt: 99vw;
-  height: 99vh;
-  max-width: 99vw;
-  max-height: 99vh;
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
 .header {
@@ -39,9 +41,6 @@ p {
   height: 100px;
   border-radius: 50%;
   background-color: #FF8370;
-  margin-right: 15%;
-  margin-left: 15%;
-  margin-top: 5%;
 }
 
 .icon {
@@ -62,10 +61,25 @@ p {
   border-radius: 50%;
 }
 
-.img-container {
-  width: 75%;
+.image-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
+}
+
+.content {
+  max-width: 5000px;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+  .text-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
