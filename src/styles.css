@@ -6,6 +6,8 @@ html, body, app-root, app-home, router-outlet, page, div {
   box-sizing: border-box;
 }
 
+
+
 p {
   margin: 0;
   padding: 0;
