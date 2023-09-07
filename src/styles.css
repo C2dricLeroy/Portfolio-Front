@@ -1,10 +1,12 @@
 @import "~font-awesome/css/font-awesome.css";
 
-body, html, div {
+html, body, app-root, app-home, router-outlet, page, div {
   margin: 0;
   padding: 0;
-  background-color: #F6F6F6;
+  box-sizing: border-box;
 }
+
+
 
 p {
   margin: 0;
