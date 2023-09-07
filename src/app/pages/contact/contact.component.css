@@ -6,3 +6,133 @@
   margin: 10px;
 }
 
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  margin-top: 75px;
+}
+
+h1 {
+  font-family: "Montserrat-Regular", "Helvetica Neue", "Helvetica", "sans-serif";
+  font-weight: bold;
+  color: #404040;
+  font-size: 52px;
+}
+
+p {
+  color: #404040;
+  font-size: 24px;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #404040;
+  align-items: center;
+  margin: 20px
+}
+
+.icon:hover {
+  color: #FF8370;
+}
+
+.ml-2 {
+  margin-left: 20px;
+}
+
+.border {
+  border: 1px solid grey
+}
+
+.icon p {
+  text-decoration: underline;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  vertical-align: center;
+  align-items: center;
+  margin: 10px;
+}
+
+input, textarea {
+  min-width: 500px;
+  width: 30vw;
+  height: 5vh;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  border: none;
+  padding: 5px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+input:focus::placeholder, textarea:focus {
+  color: #FF8370;
+}
+
+label {
+  color: #404040;
+}
+
+#message {
+  height: 15vh;
+}
+
+.btn-submit {
+  background-color: #164C4F;
+  color: whitesmoke;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-submit:hover {
+  color: whitesmoke;
+  padding: 15px;
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+}
+
