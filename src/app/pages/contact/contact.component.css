@@ -103,7 +103,7 @@ input:focus, textarea:focus {
   outline: none;
 }
 
-input:focus::placeholder, textarea:focus {
+input:focus::placeholder {
   color: #FF8370;
 }
 
