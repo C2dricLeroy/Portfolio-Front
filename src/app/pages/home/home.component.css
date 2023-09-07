@@ -52,6 +52,10 @@ p {
   padding-right: 20px;
 }
 
+.icon:hover {
+  color: #FF8370;
+}
+
 .text-container {
   display: flex;
   flex-direction: row;
