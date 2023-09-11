@@ -2,5 +2,12 @@
   <div class = "header">
     <app-navigation-header></app-navigation-header>
   </div>
-  <p>about</p>
+  <div class="landing-page">
+    <div class="option fadeIn" (click)="navigateTo('parcours')">
+      Mon Parcours
+    </div>
+    <div class="option fadeIn" (click)="navigateTo('cv')">
+      Mon C.V.
+    </div>
+  </div>
 </div>

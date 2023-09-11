@@ -6,6 +6,7 @@ import {ProjectsComponent} from "./pages/projects/projects.component";
 import {ResumeComponent} from "./pages/resume/resume.component";
 import {ArticlesComponent} from "./pages/articles/articles.component";
 import {ContactComponent} from "./pages/contact/contact.component";
+import {TimelineComponent} from "./pages/about/timeline/timeline.component";
 
 const routes: Routes = [{
   path: '', component: HomeComponent,
@@ -19,7 +20,11 @@ const routes: Routes = [{
   path: 'resume', component: ResumeComponent
 }, {
   path: 'contact', component: ContactComponent
-},
+}, {
+  path: 'about/parcours', component: TimelineComponent
+}, {
+  path: 'about/cv', component: ResumeComponent
+}
 ];
 
 @NgModule({

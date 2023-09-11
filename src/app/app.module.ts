@@ -12,6 +12,7 @@ import { NavigationHeaderComponent } from './component/navigation-header/navigat
 import { ContactComponent } from './pages/contact/contact.component';
 import {CommonModule} from "@angular/common";
 import {SharedModule} from "./component/shared.module";
+import { TimelineComponent } from './pages/about/timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {SharedModule} from "./component/shared.module";
     ProjectsComponent,
     ArticlesComponent,
     ResumeComponent,
-    ContactComponent
+    ContactComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
