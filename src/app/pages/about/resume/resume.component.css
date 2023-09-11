@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadeInAnimation {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
