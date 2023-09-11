@@ -162,6 +162,43 @@ p {
   padding-left: 10px;
   color: #6a6a6a;
   font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.education-title {
+  text-align: right;
+  border-bottom: 1px solid #404040;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.education-skills-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.education {
+  width: 45%;
+}
+
+.education-container {
+  margin: 2vh;
+}
+
+.education-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.education-item:first-child {
+  border-top: 3px solid #404040;
+}
+
+.education-item-title {
+  max-width: 45%;
 }
 
 @keyframes fadeInAnimation {
@@ -183,9 +220,11 @@ p {
     margin-right: 10%;
     margin-top: 5%
   }
+
   .title-container {
     flex-direction: column;
   }
+
   h1 {
     text-align: center;
   }
@@ -209,6 +248,7 @@ p {
     margin: 20px;
     text-align: justify;
   }
+
   .profile-information-item {
     display: flex;
     flex-direction: row;
@@ -230,12 +270,37 @@ p {
   .experience-title {
     text-align: center;
   }
+
   .experience-item {
     flex-direction: column;
     text-align: center;
   }
+
   .experience-date {
     text-align: center;
   }
 
+  .experience-container {
+    padding: 0;
+  }
+
+  .education-title {
+    text-align: center;
+  }
+
+  .education-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .education-skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .education-item-title {
+    text-align: center;
+  }
 }
