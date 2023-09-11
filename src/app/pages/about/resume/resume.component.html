@@ -20,65 +20,84 @@
         </a>
       </section>
     </div>
-    <div class="profil-container">
-      <img class="profile-picture" src="assets/profile.png" alt="profile picture">
-      <h2>Cédric Leroy</h2>
-      <p class = "presentation-text">Hello! Je m'appelle <b>Cédric Leroy</b> et j'ai <b>26 ans</b>! Depuis toujours j'ai rêvé d'une carrière dans l'informatique. C'est après un parcours non moins passionnant de psychologue que j'ai décidé de me reconvertir. Après un an d'effort et d'apprentissage j'obtiens mon titre CDA. Mon parcours atypique et mes qualités d'analyse et d'expression sont mes forces, alors n'hésitez pas à me contacter! </p>
-      <div class="profile-informations">
-        <div class="profile-information-item">
-          <p>PROFESSION</p>
-          <p>Développeur Web Back-end</p>
+    <div class="information-container">
+      <div class="profil-container">
+        <img class="profile-picture" src="assets/profile.png" alt="profile picture">
+        <h2>Cédric Leroy</h2>
+        <p class = "presentation-text">Hello! Je m'appelle <b>Cédric Leroy</b> et j'ai <b>26 ans</b> et j'habite <b>Lille</b>! Depuis toujours j'ai rêvé d'une carrière dans l'informatique. C'est après un parcours non moins passionnant de psychologue que j'ai décidé de me reconvertir. Après un an d'effort et d'apprentissage j'obtiens mon titre CDA. Mon parcours atypique et mes qualités d'analyse et d'expression sont mes forces, alors n'hésitez pas à me contacter! </p>
+        <div class="profile-informations">
+          <div class="profile-information-item">
+            <p><b>PROFESSION</b></p>
+            <p class="profil-information-item-text">Développeur Web Back-end</p>
+          </div>
+          <div class="profile-information-item">
+            <p><b>DATE DE NAISSANCE</b></p>
+            <p class="profil-information-item-text">28/03/1997</p>
+          </div>
+          <div class="profile-information-item">
+            <p><b>TELETRAVAIL</b></p>
+            <p class="profil-information-item-text">Partiel</p>
+          </div>
+          <div class="profile-information-item">
+            <p><b>VEHICULE</b></p>
+            <p class="profil-information-item-text">Permis B</p>
+          </div>
+          <div class="profile-information-item last">
+            <p><b>VILLE</b></p>
+            <p>Lille, Paris</p>
+          </div>
+          <a routerLink="/contact" class="contact-button">Contact</a>
         </div>
-        <div class="profile-information-item">
-          <p>DATE DE NAISSANCE</p>
-          <p>28/03/1997</p>
+      </div>
+      <div class="experience-container">
+        <div class="experience">
+          <h2 class="experience-title">Expériences</h2>
+          <div class="experience-item">
+            <h3>Développeur PHP & Node.js</h3>
+            <div class="experience-date">
+              <p>
+                <b>03/2023-06/2023 -</b>
+              </p>
+              <p>
+                <b>Psylexia</b>
+              </p></div>
+          </div>
+          <p class="experience-description">Lorem ipsum dolor</p>
+          <div class="experience-item">
+            <h3>Psychologue Clinicien</h3>
+            <div class="experience-date">
+              <p>
+                <b>09/2021-10/2022 -</b>
+              </p>
+              <p>
+                <b>Korian & Fondation Partage et Vie</b>
+              </p>
+            </div>
+          </div>
+          <p class="experience-description">Lorem ipsum dolor</p>
         </div>
-        <div class="profile-information-item">
-          <p>TELETRAVAIL</p>
-          <p>Partiel</p>
+        <div class="education">
+          <div class="education-item">
+            <h3>Titre Professionnel Concepteur Développeur d'Applications</h3>
+            <p class="education-date">11/2022-07/2023 - Simplon</p>
+            <p class="experience-description">Obtention du titre CDA en sortie de formation 6 mois + 3 mois de stage. Approfondissement de la programmation et formation à la conception et sécurisation des systèmes informatiques.</p>
+          </div>
         </div>
-        <div class="profile-information-item">
-          <p>VEHICULE</p>
-          <p>Permis B</p>
+        <div class="Hobby">
+          <ul class="hobby-list">
+            <li>Musique (M.A.O, guitare)</li>
+            <li>Sport (escalade, running, ...) </li>
+            <li>Développement</li>
+            <li>Lecture</li>
+          </ul>
         </div>
-        <a routerLink="/contact" class="link">Contact</a>
+        <div class="skills">
+          <ul class="hard-skills"></ul>
+          <ul class="soft-skills"></ul>
+        </div>
       </div>
     </div>
-    <div class="experience-container">
-      <div class="experience">
-        <h2 class="experience-title"></h2>
-        <div class="experience-item">
-          <h3>Développeur PHP & Node.js</h3>
-          <p class="experience-date">03/2023-06/2023 - Psylexia</p>
-          <p class="experience-description">Lorem ipsum dolor</p>
-        </div>
-        <div class="experience-item">
-          <h3>Psychologue Clinicien</h3>
-          <p class="experience-date">09/2021-10/2022 - Korian & Fondation Partage et Vie</p>
-          <p class="experience-description">Lorem ipsum dolor</p>
-        </div>
-      </div>
-      <div class="education">
-        <div class="education-item">
-          <h3>Titre Professionnel Concepteur Développeur d'Applications</h3>
-          <p class="education-date">11/2022-07/2023 - Simplon</p>
-          <p class="experience-description">Obtention du titre CDA en sortie de formation 6 mois + 3 mois de stage. Approfondissement de la programmation et formation à la conception et sécurisation des systèmes informatiques.</p>
-        </div>
-      </div>
-      <div class="Hobby">
-        <ul class="hobby-list">
-          <li>Musique (M.A.O, guitare)</li>
-          <li>Sport (escalade, running, ...) </li>
-          <li>Développement</li>
-          <li>Lecture</li>
-        </ul>
-      </div>
-      <div class="skills">
-        <ul class="hard-skills"></ul>
-        <ul class="soft-skills"></ul>
-      </div>
 
-    </div>
 
   </div>
 </div>
