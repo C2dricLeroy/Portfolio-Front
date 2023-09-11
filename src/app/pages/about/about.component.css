@@ -24,7 +24,6 @@
   color: #404040;
   font-family: Montserrat-Regular, sans-serif;
   cursor: pointer;
-
 }
 
 .option:hover {
@@ -39,4 +38,19 @@
 @keyframes fadeInAnimation {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+  .option {
+    font-size: 26px;
+  }
+
+  .landing-page {
+    flex-direction: column;
+  }
 }

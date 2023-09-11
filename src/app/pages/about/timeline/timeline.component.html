@@ -1,1 +1,18 @@
-<p>timeline works!</p>
+<div class="page">
+  <div class = "header">
+  <app-navigation-header></app-navigation-header>
+  </div>
+  <div class="timeline-container">
+    <h1>Mon Parcours</h1>
+    <div class="timeline">
+      <div class="line"></div>
+      <div *ngFor="let event of events; let i = index" class="timeline-event" [ngClass]="{ 'timeline-event-left': i % 2 === 0, 'timeline-event-right': i % 2 !== 0 }">
+        <div class="event-content">
+          <h2>{{ event.year }}</h2>
+          <p>{{ event.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

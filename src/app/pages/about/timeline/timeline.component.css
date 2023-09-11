@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline-container {
+  text-align: center;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 20% auto auto;
+}
+
+h1 {
+  margin: 10vh;
+  font-size: 50px;
+  font-family: Montserrat-Regular, sans-serif;
+}
+
+.timeline .line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  height: 210vh;
+  background-color: #FF8370;
+}
+
+.timeline .timeline-event {
+  position: relative;
+  width: 100%;
+}
+
+.timeline-event-left .event-content,
+.timeline-event-right .event-content {
+  width: 45%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.timeline-event-left .event-content {
+  float: left;
+  margin-bottom: 300px;
+}
+
+.timeline-event-right .event-content {
+  float: right;
+  margin-top: 300px;
+}
+
+h2 {
+  font-family: Montserrat-Regular, sans-serif;
+  font-size: 36px;
+  color: #404040;
+}
+p {
+  font-size: 26px;
+  color: #404040;
+}
+
+
+
