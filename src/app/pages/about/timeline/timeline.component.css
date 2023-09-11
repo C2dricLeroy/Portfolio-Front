@@ -36,7 +36,7 @@ h1 {
   bottom: 0;
   left: 50%;
   width: 4px;
-  height: 210vh;
+  height: 250vh;
   background-color: #FF8370;
 }
 
@@ -55,11 +55,13 @@ h1 {
 .timeline-event-left .event-content {
   float: left;
   margin-bottom: 300px;
+  animation: fadeInAnimation ease 1000ms;
 }
 
 .timeline-event-right .event-content {
   float: right;
   margin-top: 300px;
+  animation: fadeInAnimation ease 1000ms;
 }
 
 h2 {
@@ -72,5 +74,37 @@ p {
   color: #404040;
 }
 
+@keyframes fadeInAnimation {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+}
 
 
