@@ -6,7 +6,9 @@ html, body, app-root, app-home, router-outlet, page, div {
   box-sizing: border-box;
 }
 
-
+body {
+  background-color: #F6F6F6;
+}
 
 p {
   margin: 0;

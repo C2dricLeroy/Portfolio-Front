@@ -87,6 +87,7 @@ p {
   vertical-align: center;
   align-items: center;
   margin: 10px;
+
 }
 
 input, textarea {
@@ -94,7 +95,7 @@ input, textarea {
   width: 30vw;
   height: 5vh;
   border-radius: 15px;
-  background-color: whitesmoke;
+  background-color: #E9E9E9;
   border: none;
   padding: 5px;
 }
