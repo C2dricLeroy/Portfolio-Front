@@ -5,37 +5,31 @@
   padding: 5px;
   margin: 10px;
 }
-
 .page {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 h1 {
    font-family: Montserrat-Regular, sans-serif;
    color:#404040;
    font-size: 50px;
 }
-
 .social-link {
   position: absolute;
   bottom: 0;
   right: 0;
 }
-
 .icon {
   color: #404040;
   padding-top: 0;
   padding-left: 20px;
   padding-right: 20px;
 }
-
 .icon:hover {
   color: #FF8370;
 }
-
 .container {
   margin-top: 6vh;
   margin-left: 12%;
@@ -45,17 +39,14 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-
 .title-container {
   position: relative;
   display: flex;
 }
-
 .information-container {
   display: flex;
   flex-direction: row;
 }
-
 .profil-container {
   display: flex;
   flex-direction: column;
@@ -64,7 +55,6 @@ h1 {
   margin: 20px;
   text-align: justify;
 }
-
 .contact-button {
   width: 100%;
   border: 2px solid #404040;
@@ -72,37 +62,26 @@ h1 {
   padding: 5px;
   margin-top: 5vh;
   color: #404040;
-
-
 }
-
 .contact-button:hover {
   cursor: pointer;
   background-color: rgba(255,131,112, 0.1);
-
 }
-
 .profile-picture {
   width: 90%;
-  margin: auto;
-  margin-bottom: 20px;
-  margin-top: 0;
+  margin: 0 auto 20px;
   height: auto;
   border-radius: 50%;
-
 }
-
 .presentation-text {
   margin-top: 1vh;
   padding: 10px;
 }
-
 .profile-informations {
   display: flex;
   flex-direction: column;
   margin-top: 3vh;
 }
-
 .profile-information-item {
   display: flex;
   padding: 7px;
@@ -111,50 +90,40 @@ h1 {
   border-top: 2px solid #404040;
   text-align: right;
 }
-
 .last {
   border-bottom: 2px solid #404040;
 }
-
 h2 {
   font-family: Montserrat-Regular, sans-serif;
   color:#404040;
   font-size: 36px;
   margin: 0;
 }
-
 h3 {
   font-family: Montserrat-Regular, sans-serif;
   color:#404040;
   font-size: 30px;
 }
-
 .education-container {
   width: 75%;
 }
-
-
 p, li {
   font-size: 20px
 }
-
 ul {
   padding: 2vh;
   list-style-type: none;
 }
-
 .experience-title {
   text-align: right;
   border-bottom: 1px solid #404040;
   padding-bottom: 5px;
   margin-bottom: 5px;
 }
-
 .experience-container {
   padding: 2vh;
   justify-content: space-between;
 }
-
 .experience-item {
   display: flex;
   flex-direction: row;
@@ -162,22 +131,15 @@ ul {
   align-items: center;
   padding: 5px;
 }
-
-.experience > :nth-child(2) {
-  border-top: 3px solid #404040;
-}
-
 .experience-date {
   text-align: right;
 }
-
 .experience-description {
   padding-left: 10px;
   color: #6a6a6a;
   font-size: 18px;
   margin-bottom: 50px;
 }
-
 .pink {
   color: #FF8370;
   padding-bottom: 5px
@@ -194,64 +156,37 @@ ul {
   border: none;
 }
 
-.education > :nth-child(2) {
-  border-top: 3px solid #404040;
-}
-
 .hobby-title {
   text-align: right;
   border-bottom: 1px solid #404040;
   padding-bottom: 5px;
   margin-bottom: 5px;
 }
-
-.hobby >  :nth-child(2) {
-  border-top: 3px solid #404040;
-}
-
-
 .hobby-list {
   padding: 5px;
 }
-
-.hobby-container {
-  padding: 2vh
-}
-
 .skills-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 2vh;
-
 }
-
 .skills-title {
   text-align: right;
   border-bottom: 1px solid #404040;
   padding-bottom: 5px;
   margin-bottom: 5px;
 }
-
-.skills >  :nth-child(2) {
-  border-top: 3px solid #404040;
-}
-
-.skills {
+.skills, .hobby-container {
   padding: 2vh;
 }
-
 .technologies-container {
   width : 75%;
   padding: 2vh;
 }
-
-.cards > :nth-child(2) {
+.cards > :nth-child(2), .skills >  :nth-child(2), .hobby >  :nth-child(2), .education > :nth-child(2), .experience > :nth-child(2)   {
   border-top: 3px solid #404040;
 }
-
-
-
 .card-container {
   display: flex;
   flex-direction: row;
@@ -260,7 +195,6 @@ ul {
   max-width: 100%;
   flex-wrap: wrap;
 }
-
 .card {
   background-color: #404040;
   color: #F6F6F6;
@@ -280,25 +214,17 @@ ul {
     flex-direction: column;
     text-align: center;
   }
-
   .education-skills-container {
     display: flex;
     flex-direction: column;
-  width: 100%;
-  }
-
-  .education {
     width: 100%;
   }
-
-  .hobby-container {
+  .hobby-container, .education {
     width: 100%;
   }
-
   .profile-picture {
     width: 50%;
   }
-
   .profil-container {
     display: flex;
     flex-direction: column;
@@ -308,14 +234,11 @@ ul {
     margin: 20px;
     text-align: justify;
   }
-
-
   .information-container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -324,25 +247,17 @@ ul {
     margin-right: 10%;
     margin-top: 5%
   }
-
   .title-container {
     flex-direction: column;
   }
-
-  h1 {
-    text-align: center;
-  }
-
   .information-container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-
   .profile-picture {
     width: 50%;
   }
-
   .profil-container {
     display: flex;
     flex-direction: column;
@@ -352,53 +267,36 @@ ul {
     margin: 20px;
     text-align: justify;
   }
-
   .profile-information-item {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
   }
-
   .profil-information-item-text {
     text-align: right;
     display: flex;
     align-items: center;
   }
-
   .social-link {
     position: static;
     margin: auto;
   }
-
   .experience-title {
     width: 100%;
     text-align: center;
   }
-
-  .experience-item {
-    text-align: center;
-  }
-
-  .experience-date {
-    text-align: center;
-  }
-
   .experience-container {
     padding: 0;
     width: 100%;
   }
-
-  .hobby-title {
-    width: 100%;
+  .hobby-title, .skills-title, .experience-date, .experience-item, h1 {
     text-align: center;
   }
-
   .education {
     max-width: 100%;
     width: 100%;
   }
-
   .education-skills-container {
     width: 100%;
     max-width: 100%;
@@ -407,32 +305,15 @@ ul {
     align-items: center;
     justify-content: center;
   }
-
   .experience-description {
     text-align: justify;
   }
-
-  .hobby-container {
+  .hobby-container, .skills, .technologies-container {
     width: 100%;
   }
-
   .skills-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
-  .skills-title {
-    text-align: center;
-  }
-
-  .skills {
-    width: 100%;
-  }
-
-  .technologies-container {
-    width: 100%;
-  }
-
-
 }
