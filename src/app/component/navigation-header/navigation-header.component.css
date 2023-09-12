@@ -6,10 +6,13 @@
 }
 .link:hover {
   text-decoration: underline;
+  font-weight: bold;
 }
 
-.homeLink {
+.active {
   color: rgb(255,131,112);
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .navigationHeader {
@@ -30,7 +33,6 @@
     margin: 10px;
     text-align: center;
     vertical-align: center;
-
   }
 }
 

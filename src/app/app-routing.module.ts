@@ -8,23 +8,16 @@ import {ArticlesComponent} from "./pages/articles/articles.component";
 import {ContactComponent} from "./pages/contact/contact.component";
 import {TimelineComponent} from "./pages/about/timeline/timeline.component";
 
-const routes: Routes = [{
-  path: '', component: HomeComponent,
-}, {
-  path: 'about', component: AboutComponent
-}, {
-  path: 'projects', component: ProjectsComponent
-}, {
-  path : 'articles', component: ArticlesComponent
-}, {
-  path: 'resume', component: ResumeComponent
-}, {
-  path: 'contact', component: ContactComponent
-}, {
-  path: 'about/parcours', component: TimelineComponent
-}, {
-  path: 'about/cv', component: ResumeComponent
-}
+const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'projects', component: ProjectsComponent },
+  { path: 'articles', component: ArticlesComponent },
+  { path: 'resume', component: ResumeComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'about/parcours', component: TimelineComponent },
+  { path: 'about/cv', component: ResumeComponent }
 ];
 
 @NgModule({
