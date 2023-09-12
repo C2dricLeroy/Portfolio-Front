@@ -79,61 +79,83 @@
           <p class="experience-description">Lorem ipsum dolor</p>
         </div>
         <div class="education-skills-container">
-          <div class="education">
-            <h2 class="education-title">Mes diplômes</h2>
-            <div class="education-container">
-              <div class="education-item">
-                <h3 class="education-item-title">Titre Professionnel Concepteur Développeur d'Applications</h3>
-                <div class="education-date">
+          <div class="experience-container education-container">
+            <div class="education">
+              <h2 class="experience-title">Mes Diplômes</h2>
+              <div class="experience-item">
+                <h3>Titre professionnel Concepteur Développeur d'Applications</h3>
+                <div class="experience-date">
                   <p>
-                    <b>
-                      11/2022-07/2023 -
-                    </b>
+                    <b>07/2023 - </b>
                   </p>
                   <p>
                     <b>Simplon</b>
                   </p>
                 </div>
               </div>
-              <p class="experience-description">Obtention du titre CDA en sortie de formation 6 mois + 3 mois de stage. Approfondissement de la programmation et formation à la conception et sécurisation des systèmes informatiques.</p>
-              <hr>
-              <div class="education-item">
-                <h3 class="education-item-title">Titre Professionnel Concepteur Développeur d'Applications</h3>
-                <div class="education-date">
-                  <p>
-                    <b>
-                      11/2022-07/2023 -
-                    </b>
-                  </p>
-                  <p>
-                    <b>Simplon</b>
-                  </p>
-                </div>
-              </div>
-              <p class="experience-description">Obtention du titre CDA en sortie de formation 6 mois + 3 mois de stage. Approfondissement de la programmation et formation à la conception et sécurisation des systèmes informatiques.</p>
-
+              <p class="experience-description">Lorem ipsum dolor</p>
             </div>
-
+            <hr>
+            <div class="experience-item">
+              <h3>Titre professionnel Concepteur Développeur d'Applications</h3>
+              <div class="experience-date">
+                <p>
+                  <b>07/2023 - </b>
+                </p>
+                <p>
+                  <b>Simplon</b>
+                </p>
+              </div>
+            </div>
+              <p class="experience-description">Lorem ipsum dolor</p>
           </div>
-          <div class="Hobby">
-            <ul class="hobby-list">
-              <li>Musique (M.A.O, guitare)</li>
-              <li>Sport (escalade, running, ...) </li>
-              <li>Développement</li>
-              <li>Lecture</li>
-            </ul>
+          <div class="hobby-container">
+            <div class="hobby">
+              <h2 class="hobby-title">Hobbys</h2>
+              <ul class="hobby-list">
+                <li class="presentation-text">
+                  <h4 class="pink">Musique</h4> (M.A.O, guitare)</li>
+                <li class="presentation-text">
+                  <h4 class="pink">Sport</h4> (escalade, running, ...) </li>
+                <li class="presentation-text">
+                  <h4 class="pink">Développement</h4></li>
+                <li class="presentation-text">
+                  <h4 class="pink">Lecture</h4></li>
+              </ul>
+            </div>
           </div>
         </div>
+        <div class="skills-container">
+          <div class="skills">
+            <h2 class="skills-title">Skills</h2>
+            <div class="soft-skills">
+              <ul>
+                <li class="presentation-text">Capacité d'analyse</li>
+                <li class="presentation-text">Capacités rédactionelles</li>
+                <li class="presentation-text">Expression Orale</li>
+              </ul>
+            </div>
+          </div>
+          <div class="technologies-container">
+            <div class="cards">
+              <h2 class="skills-title">Outils</h2>
+              <div class="card-container">
+                <div *ngFor="let techno of technos">
+                  <div class="card">
+                    {{techno}}
+                  </div>
+                </div>
+              </div>
 
-        <div class="skills">
-          <ul class="hard-skills"></ul>
-          <ul class="soft-skills"></ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
-
   </div>
 </div>
+
+
+
 
 
