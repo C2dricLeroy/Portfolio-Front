@@ -50,7 +50,7 @@ h1 {
 .profil-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   max-width: 25%;
   margin: 20px;
   text-align: justify;
@@ -60,7 +60,7 @@ h1 {
   border: 2px solid #404040;
   text-align: center;
   padding: 5px;
-  margin-top: 5vh;
+  margin-top: 15vh;
   color: #404040;
 }
 .contact-button:hover {
@@ -80,7 +80,7 @@ h1 {
 .profile-informations {
   display: flex;
   flex-direction: column;
-  margin-top: 3vh;
+  margin-top: 5vh;
 }
 .profile-information-item {
   display: flex;
@@ -239,6 +239,10 @@ ul {
     align-items: center;
     justify-content: center;
   }
+
+  .contact-button {
+    margin-top: 5vh;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -315,5 +319,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .contact-button {
+    margin-top: 3vh;
   }
 }
