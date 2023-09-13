@@ -14,11 +14,13 @@
 }
 
 .contact-section {
+  width: 75%;
   display: flex;
   flex-direction: column;
 }
 
 .text {
+  width: 100%;
   margin-top: 75px;
 }
 
@@ -38,6 +40,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   text-decoration: none;
 }
@@ -68,10 +71,12 @@ p {
 }
 
 .links {
+  max-width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #contact-form {
@@ -137,3 +142,32 @@ label {
   transform: scale(1.1);
 }
 
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .text{
+    text-align:center;
+  }
+  input, textarea {
+    min-width: 300px;
+    width: 30vw;
+    height: 5vh;
+    border-radius: 15px;
+    background-color: #E9E9E9;
+    border: none;
+    padding: 5px;
+  }
+}
