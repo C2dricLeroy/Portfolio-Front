@@ -1,7 +1,11 @@
-
 <div class="page">
   <div class = "header">
     <app-navigation-header></app-navigation-header>
   </div>
-  <p>projects</p>
+  <h1 class = "title">Mes projets</h1>
+  <div class="card-container">
+    <div *ngFor="let project of projects; let i = index" class="card">
+      <a href="{{ project.Github }}">Github</a>
+  </div>
+
 </div>
