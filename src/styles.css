@@ -13,27 +13,18 @@ body {
 p {
   margin: 0;
   padding: 0;
+  font-family: "Neue Metana", sans-serif;
 }
 
 @font-face {
-  font-family: 'Lora-Regular';
+  font-family: 'Neue Metana';
   src: url('assets/fonts/Lora-Regular.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'Lora-Medium';
-  src: url('assets/fonts/Lora-Medium.ttf') format('truetype');
-}
 
 @font-face {
-  font-family: "Montserrat-Black";
-  src: url('assets/fonts/Montserrat-Black.ttf')
+  font-family: 'NeutralFace';
+  src: url('assets/fonts/NeutralFace.otf') format('truetype');
 }
-@font-face {
-  font-family: "Montserrat-Bold";
-  src: url('assets/fonts/Montserrat-Bold.ttf')
-}
-@font-face {
-  font-family: "Montserrat-Regular";
-  src: url('assets/fonts/Montserrat-Regular.ttf')
-}
+
+

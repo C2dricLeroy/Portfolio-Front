@@ -22,11 +22,22 @@
 }
 
 h1 {
-  font-family: "Montserrat-Regular", "Helvetica Neue", "Helvetica", "sans-serif";
-  font-weight: bold;
+  font-family: "NeutralFace", "Montserrat-Regular", "Helvetica Neue", "Helvetica", "sans-serif";
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   color: #404040;
-  text-align: center;
-  font-size: 52px;
+  text-align: left;
+  font-size: 75px;
+}
+
+h2 {
+  font-family: "NeutralFace", "Montserrat-Regular", serif;
+  font-size: 30px;
+  margin-left: 60px;
+  margin-bottom: 40px;
+  color: #FF8370;
 }
 
 .text {
@@ -34,8 +45,10 @@ h1 {
 }
 
 p {
+
   color: #404040;
   font-size: 24px;
+  font-weight: 500;
 }
 
 .decorator {
@@ -110,11 +123,13 @@ p {
   }
 
   h2 {
-    text-align: left;
+    text-align: center;
+    font-size: 24px;
   }
 
   p {
     padding-top: 20px;
+    font-family: "Neue Metana", serif;
   }
 
   .content {
