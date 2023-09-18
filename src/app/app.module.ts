@@ -13,6 +13,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import {CommonModule} from "@angular/common";
 import {SharedModule} from "./component/shared.module";
 import { TimelineComponent } from './pages/about/timeline/timeline.component';
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { TimelineComponent } from './pages/about/timeline/timeline.component';
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
