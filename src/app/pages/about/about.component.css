@@ -11,7 +11,6 @@
   margin: 12px;
 }
 
-
 .landing-page {
   display: flex;
   justify-content: space-evenly;
@@ -19,14 +18,13 @@
   height: 75vh;
 }
 
-.option {
+h1 {
   font-size: 50px;
   color: #404040;
-  font-family: Montserrat-Regular, sans-serif;
   cursor: pointer;
 }
 
-.option:hover {
+h1:hover {
   color: #FF8370;
 }
 
