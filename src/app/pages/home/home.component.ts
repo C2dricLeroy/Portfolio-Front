@@ -10,9 +10,9 @@ export class HomeComponent implements OnInit {
   constructor(private metaService: Meta, private titleService: Title) {}
 
   ngOnInit() {
-    this.titleService.setTitle('Projets');
+    this.titleService.setTitle('Accueil');
     this.metaService.addTags([
-      {name: 'keywords', content: 'Développeur, Cédric Leroy, TypeScript'},
+      {name: 'keywords', content: 'Développeur, Cédric Leroy, Cedric Leroy, accueil, homepage'},
       {name: 'description', content: "Page d'accueil et homepage de mon portfolio orienté TypeScript"},
       {name: 'robots', content: 'index, follow'}
     ]);

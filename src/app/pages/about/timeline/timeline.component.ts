@@ -1,13 +1,24 @@
 import {Component, HostListener, OnInit} from '@angular/core';
 import {CommonModule} from "@angular/common";
+import {Meta, Title} from "@angular/platform-browser";
 
 @Component({
   selector: 'app-timeline',
   templateUrl: './timeline.component.html',
   styleUrls: ['./timeline.component.css']
 })
-export class TimelineComponent  {
+export class TimelineComponent implements OnInit {
 
+  constructor(private metaService: Meta, private titleService: Title) {}
+
+  ngOnInit() {
+    this.titleService.setTitle('Timeline');
+    this.metaService.addTags([
+      {name: 'keywords', content: 'Développeur, Cédric Leroy, cedric Leroy, timeline, parcours, formation, TypeScript'},
+      {name: 'description', content: "Timeline de mon parcours de développeur orienté TypeScript"},
+      {name: 'robots', content: 'index, follow'}
+    ]);
+  }
   events = [
     { year: "07/2023", description: "Diplômé Concepteur Développeur d'Applications" },
     { year: "10/2022", description: "Entrée en formation Concepteur Développeur d'Applications"},
