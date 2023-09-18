@@ -16,6 +16,14 @@ p {
   font-family: "Neue Metana", sans-serif;
 }
 
+h1 {
+  font-family: "NeutralFace", Montserrat-Regular, sans-serif;
+}
+h2, h3 {
+  color: #404040;
+  font-family: Montserrat-Regular, sans-serif;
+}
+
 @font-face {
   font-family: 'Neue Metana';
   src: url('assets/fonts/Lora-Regular.ttf') format('truetype');

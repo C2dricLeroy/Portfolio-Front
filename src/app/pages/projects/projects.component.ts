@@ -10,7 +10,6 @@ export class ProjectsComponent {
   projects = [
     {
       DateDebut: "06/2023",
-      DateFin: "",
       Name: 'Groovz',
       Description: 'Groovz est un projet de réseau social musical pour les utilisateurs de Spotify.',
       Technologies: ['Next.js', 'Nest.js', 'PostGreSQL', 'Prisma' ],
@@ -23,8 +22,14 @@ export class ProjectsComponent {
       DateFin: "06/2023",
       Name: "Discord Simplon",
       Description: "Création d'un Discord communautaire pour le groupe Simplon. Automatisation de processus métiers au travers de bots.",
-      Technologies: ['Angular', 'Nest.js', 'PostGreSQL', 'Prisma', 'Discord.js', '' ],
-      Github: ''
+      Technologies: ['Angular', 'Nest.js', 'PostGreSQL', 'Prisma', 'Discord.js'],
+      Statut: 'terminé'
+    },
+    {
+      DateDebut: "09/2023",
+      Name: "Framework Discord",
+      Description: "Conception et développement d'un framework Discord d'entreprise.",
+      Statut: 'en cours',
     }
   ]
 }
