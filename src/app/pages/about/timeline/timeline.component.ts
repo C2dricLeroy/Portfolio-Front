@@ -20,6 +20,7 @@ export class TimelineComponent implements OnInit {
     ]);
   }
   events = [
+    { year: "10/2023", description: "Entrée au sein de l'incubateur numérique d'Euratechnologies" },
     { year: "07/2023", description: "Diplômé Concepteur Développeur d'Applications" },
     { year: "10/2022", description: "Entrée en formation Concepteur Développeur d'Applications"},
     { year: "03/2022", description: "Découverte du développement web et complétion du CS50"},
